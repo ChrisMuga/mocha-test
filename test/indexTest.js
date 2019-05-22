@@ -23,7 +23,7 @@ describe('index.js', function(){
     describe('addition()', () => {
         // result should be above 5
         it('addition() should return val above 5', () => {
-            let result = index.addition(5,5)
+            let result = index.addition(3,3)
             assert.isAbove(result, 5)
         })
 
